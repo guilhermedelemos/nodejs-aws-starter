@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-aws-starter",
+  "version": "1.0.0",
+  "description": "AWS Starter",
+  "main": "consumer.js",
+  "scripts": {
+    "producer": "nodemon producer",
+    "consumer": "nodemon consumer"
+  },
+  "dependencies": {
+    "dotenv": "7.0.0",
+    "md5": "2.2.1",
+    "sqs-consumer": "5.2.0",
+    "sqs-producer": "1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermedelemos/nodejs-aws-starter.git"
+  },
+  "keywords": [
+    "aws",
+    "producer",
+    "consumer",
+    "starter"
+  ],
+  "author": "Guilherme de Lemos",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/guilhermedelemos/nodejs-aws-starter/issues"
+  },
+  "homepage": "https://github.com/guilhermedelemos/nodejs-aws-starter#readme"
+}
